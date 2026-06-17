@@ -1,0 +1,8 @@
+{
+  "name": "transformation-diagnostic",
+  "version": "1.0.0",
+  "description": "Conversational transformation program diagnostic tool",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0"
+  }
+}
