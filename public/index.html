@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transformation Program Diagnostic</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f5f6fa;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      max-width: 600px;
+      width: 100%;
+      padding: 48px;
+    }
+    .logo {
+      width: 48px;
+      height: 48px;
+      background: #2E5FA3;
+      border-radius: 10px;
+      margin-bottom: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo svg { fill: white; }
+    h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 15px;
+      color: #6b7280;
+      margin-bottom: 32px;
+    }
+    .section {
+      background: #f8f9fc;
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin-bottom: 24px;
+      border-left: 3px solid #2E5FA3;
+    }
+    .section h2 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #2E5FA3;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+    .section p {
+      font-size: 14px;
+      color: #374151;
+      line-height: 1.6;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      background: #2E5FA3;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      margin-top: 8px;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: #24508f; }
+    .time-note {
+      text-align: center;
+      font-size: 13px;
+      color: #9ca3af;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+    </div>
+    <h1>Transformation Program Diagnostic</h1>
+    <p class="subtitle">A confidential assessment to help shape the program's success</p>
+
+    <div class="section">
+      <h2>What this is</h2>
+      <p>You'll have a short conversational interview with an AI consultant covering six areas: vision and strategy, leadership, governance, delivery, change management, and communications. Your honest input helps identify what's working and what needs attention.</p>
+    </div>
+
+    <div class="section">
+      <h2>Confidentiality</h2>
+      <p>Your responses are completely confidential. Nothing will be attributed to you individually. All input is compiled with others and reported as aggregated insights only.</p>
+    </div>
+
+    <a href="/interview" class="btn">Begin Interview</a>
+    <p class="time-note">Approximately 20–30 minutes</p>
+  </div>
+</body>
+</html>
